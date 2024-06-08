@@ -1,0 +1,181 @@
+body{
+    background-color: rgb(16, 231, 213);
+}
+
+header{
+ background-color: rgb(109, 192, 109);
+ margin-bottom: -15px;
+
+}
+
+header p{
+    text-align: center;
+    color: rgb(128, 84, 33);
+    background-color: antiquewhite;
+    margin: -2px 555px 0px 555px;
+    border-radius: 30px 30px 30px 30px;
+    font-size:53px;
+    
+}
+
+header h1{
+    color: rgb(128, 84, 33);
+    min-height: 10px;
+    text-align: center;
+    padding: 20px;
+    font-size: 3.0em;
+    
+    
+    
+}
+
+footer{
+    background-color: rgb(109, 192, 109);
+}
+
+footer p{
+    text-align: center;
+    color:  rgb(128, 84, 33);
+    margin-top: 50px;
+}
+
+nav{
+    background-color: antiquewhite;
+    min-height: 40px;
+    padding-top: 20px;
+    text-align: center;  
+}
+
+nav>a{
+    color: rgb(128, 84, 33);
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.5;
+    border-radius: 10px; 
+}
+
+nav>a:hover{
+    background-color: rgb(109, 192, 109) 
+}
+
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    background-color: rgb(109, 192, 109);
+    border-radius: 30px 30px 30px 30px;
+    margin: 45px 70px 55px 70px;
+    padding: 30px 30px 0px 30px;
+
+}
+
+main>img{
+width: 100%;
+}
+
+
+main p{
+ 
+  text-indent: 15px;
+  line-height: 2.0em;
+  font-size: 1.2em;
+  color:rgb(128, 84, 33);
+  text-decoration: none;
+
+}
+
+main h1{
+ background-color: antiquewhite;
+ text-align: center;
+ color: rgb(128, 84, 33);
+ border-radius: 30px 30px 30px 30px;
+ margin: -20px 460px 30px 460px;
+ font-size: 1.6em;
+ padding:10px;
+}
+
+main a{
+    text-decoration: none;
+    font-weight: bold;
+    color:  rgb(16, 231, 213);
+}
+
+
+a.externo::after{
+    content:'\00a0\1F517';
+}
+
+aside{
+    background-color: rgb(109, 192, 109);
+    padding: 40px;
+    border-radius: 30px 30px 30px 30px;
+    margin-top: 50px;
+}
+
+aside ul{
+    list-style: none;
+}
+
+aside h3{
+ color: rgb(128, 84, 33);
+ text-align: center;
+ padding: 10px;
+ background-color: antiquewhite;
+ font-size: 1.2em;
+ margin: -40px -40px 0px -40px;
+ margin-top: 40PX;
+ 
+ 
+}
+
+aside h1{
+    color: rgb(128, 84, 33);
+    text-align: center;
+    padding: 10px;
+    background-color:antiquewhite;
+    border-radius: 30px 30px 30px 30px;
+    margin-bottom: 80px;
+    font-size: 2.1em;
+    margin: -30px 500px 0px 500px;
+}
+
+aside ul li{
+    color: rgb(128, 84, 33);
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.9em;
+  
+
+}
+
+aside h4{
+    color: rgb(128, 84, 33);
+    text-align: center;
+    padding: 10px;
+    background-color:antiquewhite;
+    margin-bottom: 80px;
+    font-size: 1.6em;
+    margin: -65px -70px 0px -70px;
+}
+
+img{
+    width: 1100px;
+    height: 600px;
+}
+
+h1 img{
+    width: 360px;
+    height: 360px;
+}
+
+h9{
+ color: rgb(255, 0, 0);
+}
+
+
